@@ -1,0 +1,251 @@
+/*ALGEMEEN------------------------------------------------------------------------------------------*/
+.reveal .controls{
+  color: white;
+}
+
+section{
+  background-color: white;
+  font-size: 2rem;
+  width: 100%;
+  height: 100%;
+  font-family: 'Arvo', serif;
+  position: relative;
+  border-radius: 5%;
+}
+
+.slides{
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+ body{
+   background-color: #CD1133;
+ }
+
+.titel{
+  color: white;
+  height: 7rem;
+  text-align: center;
+  z-index: 1;
+  font-size: 5rem;
+  font-family: sketchnote-square, sans-serif;
+  margin: 1rem auto;
+}
+
+ .streep{
+   height: 7rem;
+   position: absolute;
+   top: 2rem;
+   left: 20rem;
+   z-index: -1;
+ }
+
+ ::selection {
+  color: white;
+  background: #CD1133;
+}
+
+ /*SLIDE1*/
+#logo{
+   width: 100%;
+   margin-top: 6rem;
+ }
+
+ /*SLIDE2*/
+#groepsfoto{
+  background-image: url("img/groep.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+/*SLIDE3*/
+p{
+  font-family: amatic-sc, sans-serif;
+  font-weight: 700;
+}
+
+#huis{
+  height: 30rem;
+  position: absolute;
+  top: 8rem;
+  left: 10rem;
+  z-index: -1;
+}
+
+#huistekst1{
+  font-size: 5rem;
+  position: absolute;
+  top: 21rem;
+  left: 35rem;
+}
+
+#huistekst2{
+  font-size: 5rem;
+  position: absolute;
+  top: 26rem;
+  left: 35rem;
+}
+
+#klok{
+  height: 20rem;
+  position: absolute;
+  bottom: 5rem;
+  right: 10rem;
+}
+
+#kloktekst1{
+  font-size: 5rem;
+  position: absolute;
+  bottom: 15rem;
+  right: 35rem;
+}
+
+#kloktekst2{
+  font-size: 5rem;
+  position: absolute;
+  bottom: 10rem;
+  right: 35rem;
+}
+
+/*SLIDE4*/
+.buttongroepen{
+	margin: 2rem 1rem;
+	padding: 2rem;
+	font-size: 2.5rem;
+	font-family: sketchnote-square, sans-serif;
+	border: none;
+	border-radius: 1rem;
+}
+
+.buttongroepen:nth-child(1):focus{
+  background-color: purple;
+  color: white;
+}
+
+.buttongroepen:nth-child(2):focus{
+  background-color: yellow;
+}
+
+.buttongroepen:nth-child(3):focus{
+  background-color: green;
+  color: white;
+}
+
+.buttongroepen:nth-child(4):focus{
+  background-color: red;
+  color: white;
+}
+
+.buttongroepen:nth-child(5):focus{
+  background-color: blue;
+  color: white;
+}
+
+.buttongroepen:nth-child(6):focus{
+  background-color: orange;
+}
+
+#infogroepen{
+  font-size: 5rem;
+  margin: 2rem;
+  padding: 15rem 2rem;
+  border-radius: 1rem;
+}
+
+/*SLIDE5*/
+#Steakfestijnposter{
+  width: 40rem;
+}
+
+/*SLIDE 6 en SLIDE 7*/
+.poster{
+  width: 40rem;
+  position: absolute;
+  left: 2.5rem;
+}
+
+.sfeer1{
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 39%;
+  width: 49rem;
+  position: absolute;
+  right: 2.5rem;
+  border-radius: 1rem;
+}
+
+.RainbowTD .sfeer1{
+  background-image: url("img/rainbowtdsfeer1.jpg");
+}
+
+.Kubb .sfeer1{
+  background-image: url("img/kubbtornooisfeer1.jpg");
+}
+
+.sfeer2{
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 39%;
+  width: 49rem;
+  position: absolute;
+  right: 2.5rem;
+  bottom: 2.5rem;
+  border-radius: 1rem;
+}
+
+.RainbowTD .sfeer2{
+  background-image: url("img/rainbowtdsfeer2.jpg");
+}
+
+.Kubb .sfeer2{
+  background-image: url("img/kubbtornooisfeer2.jpg");
+}
+
+/*SLIDE8*/
+#kampvuur{
+  background-image: url("img/kampvuur.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+/*SLIDE9*/
+#kampinfo{
+  font-size: 5rem;
+}
+
+#kampinfo #kampinfodelen span{
+  color: #CD1133;
+  margin-right: 2rem;
+}
+#kampinfo #kampinfodelen p{
+  margin: 5.5rem;
+}
+
+/*SLIDE10*/
+#einde{
+  background-image: url("img/einde.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#einde .titel{
+  color: white;
+  height: 7rem;
+  text-align: center;
+  z-index: 1;
+  font-size: 5rem;
+  font-family: sketchnote-square, sans-serif;
+  position: absolute;
+  top: 50rem;
+  left: 35rem;
+}
+
+ #einde .streep{
+   height: 7rem;
+   position: absolute;
+   top: 50rem;
+   left: 20rem;
+ }
